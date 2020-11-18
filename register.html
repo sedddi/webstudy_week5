@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>register page</title>
+  <style>
+    body{
+      <br>
+      display: table-cell;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+      padding-top: 50px;
+      padding: 60px 40px;
+    }
+
+    html{
+      display: table;
+      margin: auto;
+      background-color: #6699FF;
+    }
+
+    .putstring{
+      padding:5px 5px;
+    }
+    .mybutton{
+      border:1x solid #ff0080;
+      background-color:#8C8C8C;
+      font:20px 고딕;
+      font-weight:bold;
+      color:#99004C;
+      padding:2px 9px;
+      margin-left: 130px;
+    }
+    .resetbutton{
+      border:1x solid #ff0080;
+      background-color:#D5D5D5;
+      font:20px 고딕;
+      font-weight:bold;
+      color:#353535;
+      padding:2px 8px;
+      margin-right: 130px;
+    }
+  </style>
+  </head>
+
+  <body>
+  <form action="register.php" method="POST" name="회원가입 페이지">
+    <p align="center"><font face="나눔고딕" size="4"><b>REGISTER</b></font></p><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    id
+    <input type="text" name="id" id="id" placeholder="아이디" class="putstring">&nbsp;&nbsp;&nbsp;&nbsp;
+    pw
+    <input type="password" name="pw" id="password" placeholder="비밀번호" class="putstring"><br><br>
+    name
+    <input type="text" name="name" id="name" placeholder="이름" class="putstring">&nbsp;
+    email
+    <input type="text" name="email" id="email" placeholder="이메일" class="putstring"><br><br>
+
+
+    <input type="reset" value="RESET" class="resetbutton">
+    <input type="submit" value="SUBMIT" class="mybutton">
+  </form>
+  </body>
+  </html>
