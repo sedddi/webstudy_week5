@@ -33,7 +33,7 @@ if(mysqli_query($con,$sql))
 {?>
   <script>
       alert("회원가입 완료!");
-      location.replace("./index.php")
+      location.replace("./login.php")
   </script>
 <?php
 }
